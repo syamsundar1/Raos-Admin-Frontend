@@ -1,0 +1,338 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color:  #245836;
+}
+
+.availability-btn{
+	display: inline;
+	border-radius: 15px;
+	text-decoration: none;
+	border: none;
+	background-color: #676363;
+	font-size: 20px;
+	padding: 7px;
+	margin: 5px;
+}
+
+.availability-btn:hover{
+	color: white;
+}
+
+.checkbox-ava{
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.login-form-container{
+	background-color:  #3c5679;
+	/*align-content: center;*/
+	/*align-items: center;*/
+	text-align: center;
+	max-width: 300px;
+	margin: auto;
+	max-height: 500px;
+	margin-top: 180px;
+	padding: 30px;
+	justify-content: center;
+}
+.login-form-input-elements{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 30px;
+	border:none;	
+}
+
+.login-form-input-elements-button{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 30px;
+	border:none;
+}
+
+.login-form-input-elements-button:hover{
+	background-color: black;
+	color: white;
+}
+
+
+
+.login-form-input{
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-name{
+	margin-left: 2%;
+	margin-top: 10px;
+	position: absolute;
+	float: left;
+	background-color:  #991539;
+}
+
+span{
+	background-color:  #991563;
+}
+
+.nav-options-list{
+	float: right;
+	margin-top: 10px;
+	width: auto;
+}
+
+.nav-li-list{
+	display: inline-block;
+	padding: 15px 30px;
+	margin-right: 50px;
+}
+
+.nav-a{
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.2vw;
+}
+
+.nav-a:hover{
+	color:  #0d0509;
+	transition: 0.5s;
+}
+
+.title-delivery, .title-oder, .title-offers, .title-voucher, .title-product{
+	text-align: center;
+	font-size: 30px;	
+}
+
+.instant-delivery-container{
+	text-align: center;
+}
+
+.free-delivery-container{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.time-slot-input{
+	padding: 10px;
+}
+
+.input-time{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 8px;
+	/*border:none;*/
+}
+
+.input-time-button{
+	margin: 5px;
+	padding: 10px;
+}
+
+.order-list-table-div{
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+.order-list-table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td,th{
+	padding: 20px;
+}
+
+th{
+	text-align: start;
+}
+
+td{
+	text-transform: capitalize;
+}
+
+.btn-decline{
+	border-radius: 5px;
+	background-color: #D4473B;
+}
+
+.btn-conform{
+	border-radius: 5px;
+	background-color: #6CC830;
+
+}
+
+.product-form-div{
+	text-align:center;
+	margin: 50px;
+	padding: 30px;
+	background-color: #a89291;
+	border-radius: 20px;
+}
+
+.product-form{
+	margin:20px;
+}
+
+.product-form-input{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;
+}
+
+.product-form-input-btn{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;
+}
+
+.product-form-input-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.btn-time-conform{
+	border-radius: 10px;
+	border:none;
+	margin:20px;
+	padding: 10px;
+}
+
+.btn-time-conform:hover{
+	background-color: black;
+	color: white;	
+}
+
+.btn-set-time{
+	padding: 5px;
+	border-radius: 5px;
+	border:none;
+	margin: 20px;
+	letter-spacing: .5px;
+}
+
+
+
+
+
+
+.Voucher-form-div{
+	text-align:center;
+	margin: 50px;
+	padding: 30px;
+	background-color: #a89291;
+	border-radius: 20px;
+}
+
+.Voucher-form{
+	margin:20px;
+}
+
+.Voucher-form-input{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;
+}
+
+.Voucher-form-input-btn{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;
+}
+
+.Voucher-form-input-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+
+
+
+.offer-container-div{
+	text-align:center;
+	margin: 50px;
+	padding: 30px;
+	background-color: #a89291;
+	border-radius: 20px;
+}
+
+
+.offer-form-div{
+	text-align:center;
+	margin: 50px;
+	padding: 30px;
+	background-color: #a89291;
+	border-radius: 20px;
+}
+
+
+.offer-form{
+	margin:20px;
+}
+
+.offer-form-input{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;
+}
+
+.offer-form-input-btn{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;
+}
+
+.offer-form-input-btn:hover{
+	background-color: black;
+	color: white;
+}
+
+.offer-products-class , .offer-name-class , .add-product-btn{
+	padding: 10px;
+	margin:20px;
+	border-radius: 8px;
+	border:none;	
+}
+
+
+
+
+.pop-window{
+	background: rgba(0,0,0,0.6);
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;	
+	justify-content: center;
+	align-items: center;
+}
+
+.popup-content{
+	height: 550px;
+	width: 1000px;
+	border-radius: 8px;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+.order-form{
+	margin: 50px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+}

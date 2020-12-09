@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orders</title>
+   	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<header>
+	<!-- Nav-bar -->
+	<h1 class="title-name">RAOS<span>Digital</span></h1>
+		<nav class="nav-bar-container">
+			<ul class="nav-options-list">
+				<li class="nav-li-list"><a class="nav-a" href="homepage.html">Delivery</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="oders.html">Orders</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="product.html">Product</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="voucher.html">Vouchers</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="offers.html">Offers</a></li>
+			</ul>
+		</nav>
+		<!-- Nav-bar ending -->
+</header>
+<body>
+	<script src="script.js"></script>
+	<!-- Full body page -->
+	<div class="container">
+		<!-- Delivery title -->
+		<div class="title-oder">
+			<h1>Orders</h1>
+			<br>
+			<button onclick="addorderbtn()" id="add-order-btn" class="add-order-btn">Add order</button>
+			<!-- Orders list container -->
+			<div class="order-list-table-div">
+				<table class="order-list-table" id="order-list-table-id"  >
+					<thead id="orderlist">
+						<th>S.no</th>
+						<th>User</th>
+						<th>Product</th>
+						<th>Qunatity</th>
+						<th>Status</th>
+						<th>Actions</th>
+					</thead>
+					<tbody>
+						<tr>
+						<td>1.</td>
+						<td>syam</td>
+						<td>apple</td>
+						<td>2</td>
+						<td id="Status">pending</td>
+						<td>
+							<table>
+								<td>
+									<button class="btn-conform" onclick="conform()" >Comform</button>
+									<button class="btn-decline" onclick="decline()">Decline</button>
+								</td>
+							</table>
+						</td>
+					</tbody>
+				</table>
+			</div>
+
+
+			<!-- add order pop window -->
+				<div class="pop-window">
+					<div class="popup-content">
+						<form onsubmit="onformsubmit();" autocomplete="off" class="order-form">
+							<label>User : <input type="text" name="user" placeholder="Enter user name" id="user-name-id"></label><br>
+							<label>Product : <input type="text" name="product" placeholder="Enter product" id="product-name-id"></label><br>
+							<label>Qunatity : <input type="number" name="qunatity" placeholder="Enter qunatity" id="qunatity-id"></label><br>
+							<label>Status : <input type="text" name="status" placeholder="Enter status" id="status-id"></label><br>
+							<input type="submit" name="order-submit">
+						</form>
+					</div>
+				</div>
+			<!-- add order pop window ending -->
+
+
+			<!-- Orders list container ending -->
+		</div>
+		<!-- Delivery title ending-->
+	</div>
+	<!-- Full body page ending -->
+</body>
+
+</html>
+
+</html>

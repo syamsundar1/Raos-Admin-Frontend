@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raos-Digtal</title>
+   	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<header>
+	<!-- Nav-bar -->
+	<h1 class="title-name">RAOS<span>Digital</span></h1>
+		<nav class="nav-bar-container">
+			<ul class="nav-options-list">
+				<li class="nav-li-list"><a class="nav-a" href="homepage.html">Delivery</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="oders.html">Oders</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="product.html">Product</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="voucher.html">Vouchers</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="offers.html">Offers</a></li>
+			</ul>
+		</nav>
+		<!-- Nav-bar ending -->
+</header>
+
+<body>
+	<script src="script.js"></script>
+
+	<!-- Full body page -->
+	<div class="container">
+		<!-- Delivery title -->
+		<div class="title-delivery">
+			<h1>Delivery</h1>
+		</div>
+		<!-- Delivery title ending-->
+
+		<!-- Instant delivery container -->
+		<div class="instant-delivery-container">
+			<h2>Instant Delivery</h2>
+			<label class="checkbox-ava"><input type="radio" value="avaliable" name="avaliable">Avaliable</label>
+			<label class="checkbox-ava"><input type="radio" value="not_avaliable" name="avaliable" >Not Avaliable</label>
+			<button class="availability-btn" name="avaliable-btn" onclick="availability()">Set Availability</button>
+		</div>
+		<!-- Instant delivery container ending -->
+
+		<!-- Free Delivery Container -->
+		<div class="free-delivery-container">
+			<h2>Free Delivery Time Slot</h2>
+			<!-- time slot feild -->
+			<div class="time-slot-input">
+				<form>
+					<input class="input-time" type="number" id="time-am-hr-id" name="time-am-hr-name" placeholder="hours" required>
+					<label><input class="input-time" id="time-am-mm-id" type="number" name="time-am-mm-name" placeholder="minuites" required>  AM </label>
+					<!-- <input onclick="settimeam()" class="btn-time-conform" type="submit" name="conform"> -->
+					<button class="btn-set-time" onclick="settimeam()">Set time</button>
+					<br>
+					<input class="input-time" type="number" id="time-pm-hr-id" name="time-pm-hr-name" placeholder="hours" required>
+					<label><input class="input-time" id="time-pm-mm-id" type="number" name="time-pm-mm-name" placeholder="minuites" required> PM </label>
+					<button class="btn-set-time" onclick="settimepm()">Set time</button>
+					<!-- <input onclick="settimepm()" class="btn-time-conform" type="submit" name="conform"> -->
+				</form>
+			</div>
+			<!-- time slot feild ending -->
+			<!-- time-to-delivery-feild-buttons -->
+			<div class="time-to-delivery-container" >
+				<input class="input-time-button" type="button" name="add-time" value="Add time slot" onclick="addtime()">
+				<input class="input-time-button" type="button" name="remove-time" value="Remove time slot" onclick="removetime()">
+			</div>
+			<!-- time-to-delivery-feild-buttons ending -->
+		</div>
+		<!-- Free Delivery Container ending -->
+	</div>
+	<!-- Full body page ending -->
+</body>
+
+</html>
+
+</html>

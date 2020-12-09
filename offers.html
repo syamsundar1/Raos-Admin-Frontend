@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offers</title>
+   	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<header>
+	<!-- Nav-bar -->
+	<h1 class="title-name">RAOS<span>Digital</span></h1>
+		<nav class="nav-bar-container">
+			<ul class="nav-options-list">
+				<li class="nav-li-list"><a class="nav-a" href="homepage.html">Delivery</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="oders.html">Oders</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="product.html">Product</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="voucher.html">Vouchers</a></li>
+				<li class="nav-li-list"><a class="nav-a" href="offers.html">Offers</a></li>
+			</ul>
+		</nav>
+		<!-- Nav-bar ending -->
+</header>
+<body>
+	<script src="script.js"></script>
+	<!-- Full body page -->
+	<div class="container">
+		<!-- Offer title -->
+		<div class="title-offers">
+			<h1>Offers</h1>
+		</div>
+		<!-- Offer title ending-->
+		<!-- Offer container -->
+		<div class="offer-container-div">
+			<form class="offer-form-input">
+				<label>Offer Name : <input class="offer-name-class" type="text" name="offer_name" placeholder="Enter offer name" required> </label>
+				<label>Offer Products : <input class="offer-products-class" type="text" name="offer_products" placeholder="Enter offer Products" id="products-id" required> </label>
+				<label><input class="add-product-btn" type="button" name="add-product" placeholder="add products" onclick="pushproducts()" value="add products"></label>
+				<input class="offer-form-input-btn" type="submit" name="offer_submit">
+			</form>
+		</div>
+		<!-- Offer container ending-->
+		<!-- offer products display -->
+
+
+	<!-- 	<div>
+				<label>Offer Name : <input type="text" name="offer_name" placeholder="Enter offer name" required> </label>
+				<label>Offer Products : <input type="text" name="offer_products" placeholder="Enter offer Products" id="products-id" required> </label>
+				<label><input type="button" name="add-product" placeholder="add products" onclick="pushproducts()" value="add products"></label>
+		</div> -->
+
+
+		<div>
+			<h4 id="product_name"></h4>
+		</div>
+		<!-- offer products display ending-->
+	</div>
+	<!-- Full body page ending -->
+</body>
+
+</html>
+
+</html>
